@@ -10,6 +10,12 @@ import javax.persistence.TemporalType;
 
 import lombok.Data;
 
+/**
+ * 
+ * @author jjjok
+ * ユーザーの情報を扱うドメインクラス
+ *
+ */
 @Entity(name = "User")
 @Data
 public class UserVO {
